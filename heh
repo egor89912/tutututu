@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    double H = 0.85, PI = 3.14;
+    double T,v;
+    const double a = 5.96 ;
+    T = sqrt(H/a/2)*PI;
+    v = sqrt(a*H/2);
+    cout<<T<<endl;
+    cout<<v<<endl;
+}
